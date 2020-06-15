@@ -4,12 +4,6 @@ package = "@netlify/plugin-sitemap"
   buildDir = ""
   exclude = [
     # By file Path
-    '.certifications.html',
-    './build-dir/certifications.html',
-    '/certifications.html',
-    './build-dir/certifications.html',
-    '/build-dir/certifications.html'
-
-
+    'certifications.html'
   ]
   
