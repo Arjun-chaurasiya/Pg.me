@@ -1,9 +1,9 @@
 [[plugins]]
 package = "@netlify/plugin-sitemap"
   [plugins.inputs]
-  buildDir = ""
+  buildDir = "public"
   exclude = [
     # By file Path
-    'certifications.html'
+    './certifications.html'
   ]
   
