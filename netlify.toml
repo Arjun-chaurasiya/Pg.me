@@ -6,9 +6,7 @@ package = "@netlify/plugin-sitemap"
     # By file Path
     '**/**/certifications.html'
   ]
-  
 
-[[plugins]]
 package = "netlify-plugin-no-more-404"
   [plugins.inputs]
   on404 = "error" 
