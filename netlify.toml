@@ -1,14 +1,8 @@
-[[plugins]]
-package = "@netlify/plugin-sitemap"
-  [plugins.inputs]
-  buildDir = ""
-  exclude = [
-    # By file Path
-    '**/**/certifications.html'
-  ]
+
   [[plugins]]
 package = "netlify-plugin-no-more-404"
   [plugins.inputs]
   on404 = "error" 
    cacheKey = "MyCacheKey"
     debugMode = true
+    
