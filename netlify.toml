@@ -6,19 +6,9 @@ package = "@netlify/plugin-sitemap"
     # By file Path
     '**/**/certifications.html'
   ]
-<<<<<<< HEAD
-
   
-  [[plugins]]
+[[plugins]]
 package = "netlify-plugin-no-more-404"
-=======
-  
-
-  [[plugins]]
-package = "netlify-plugin-no-more-404"
-
-  # all inputs are optional, we just show you the defaults below
->>>>>>> fda4191d57a427c8982a3ad89d3e00577c60bfd5
   [plugins.inputs]
   on404 = "error" 
   cacheKey = "MyCacheKey"
