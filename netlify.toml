@@ -13,3 +13,7 @@ package = "netlify-plugin-no-more-404"
   on404 = "error" 
   cacheKey = "MyCacheKey"
   debugMode = false
+
+[build]
+  command = echo "your build command goes here"
+  publish = dist
