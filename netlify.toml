@@ -11,4 +11,4 @@ package = "netlify-plugin-no-more-404"
   [plugins.inputs]
   on404 = "error" 
    cacheKey = "MyCacheKey"
-    debugMode = false
+    debugMode = true
